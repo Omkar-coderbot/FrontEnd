@@ -1,6 +1,6 @@
 // environment.prod.ts
 export const environment = {
     production: true,
-    apiUrl: 'https://localhost:7115/api/', // Replace with your production API URL
+    apiUrl: 'http://52.66.152.140:7124/api/', // Replace with your production API URL
   };
   
