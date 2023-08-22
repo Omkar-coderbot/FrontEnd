@@ -49,7 +49,7 @@ refreshList(){
     // Save user data using the UserService
     
     this.productService.saveProduct(this.product).subscribe(res=>{
-      alert("User Added Successfully ! ");
+      alert("Product Added Successfully ! ");
       console.log(this.product);
        this.refreshList();
    
