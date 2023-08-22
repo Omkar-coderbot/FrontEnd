@@ -50,7 +50,7 @@ refreshList(){
     
     this.productService.saveProduct(this.product).subscribe(res=>{
       console.log(this.product)
-    window.location.reload();
+   
     })
     
   }
