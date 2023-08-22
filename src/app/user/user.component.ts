@@ -51,7 +51,8 @@ refreshList(){
     
     this.userService.saveUser(this.user).subscribe(res=>{
       alert("User Added Successfully ! ");
-      console.log(this.user)
+      console.log(this.user);
+      this.refreshList();
 
     })
     
